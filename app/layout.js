@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 export const metadata = {
   title: 'Swifexa Solutions LLC — AI booking agent for dental practices',
   description: 'AI booking agent for dental practices — answers missed calls, books patients, texts them back.',
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
             <p><a href="/privacy-policy" style={{ color: '#fff' }}>Privacy Policy</a> · <a href="/terms-and-conditions" style={{ color: '#fff' }}>Terms and Conditions</a> · Contact: w@swifexasolutions.com</p>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );

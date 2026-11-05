@@ -45,6 +45,12 @@ export default function Home() {
       </section>
 
       <section style={{ ...glass, marginTop: 24, textAlign: 'center' }}>
+        <h2 style={{ marginTop: 0 }}>Watch how it works</h2>
+        <p style={{ color: 'rgba(255,255,255,0.85)' }}>A 36-second demo with real replies from the live demo — cleaning, tooth pain, and the implant price question. Demo only, test data, no real patients.</p>
+        <p><a href="/demo" style={{ background: '#ffffff', color: '#302b63', fontWeight: 800, padding: '14px 28px', borderRadius: 999, textDecoration: 'none', display: 'inline-block' }}>Watch the demo →</a></p>
+      </section>
+
+      <section style={{ ...glass, marginTop: 24, textAlign: 'center' }}>
         <h2 style={{ marginTop: 0 }}>Contact</h2>
         <p>For questions about Swifexa, contact Swifexa Solutions LLC at <a href="mailto:w@swifexasolutions.com" style={{ color: '#fff', fontWeight: 700 }}>w@swifexasolutions.com</a></p>
         <p><a href="/privacy-policy" style={{ color: '#fff' }}>Privacy Policy</a> · <a href="/terms-and-conditions" style={{ color: '#fff' }}>Terms and Conditions</a></p>
